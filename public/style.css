@@ -1,0 +1,42 @@
+.main{
+   
+
+	background: rgb(158, 48, 5);
+ }
+ 
+ h1,h2 {
+ color: white;
+
+}
+ 
+ a {
+ background-color:rgb(121, 214, 14);
+ height:50px;
+ width:100px;
+ border-radius:4px;
+ font-size: 30pt;
+ margin-right: 20px;
+ }
+ h1 {
+ font-size: 30pt;
+ }
+ p{
+ font-size: 15pt;
+ }
+ .flex-wrapper{
+ display:flex;
+ margin-left: 30px;
+ flex-direction:row;
+ flex-wrap:wrap;
+ justify-content: space-around;
+}
+input{
+padding-left:100px;
+margin-left:500px;
+}
+.footer{
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding: 2px;
+	background-color: purple;
+}
