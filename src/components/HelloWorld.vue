@@ -1,9 +1,6 @@
 <template>
 <div class="main ">
-  <h1>World of gadgets</h1>
-  <h2>Все самые большие технологические изобретения, созданные человеком – самолет, автомобиль, компьютер – больше свидетельствуют о его лени, чем о высоком интеллекте.</h2>
-  <a href=""> Новости</a>
-  <a href="">Обзоры</a>
+ 
   <div class="flex-wrapper">
  <div class="flex-child ">
   <p> <img src="mac.png" ></p>
@@ -43,13 +40,13 @@
  
 
  </footer>
-
-
- </div>
- </div>
-
-
 </div>
+ </div>
+ </div>
+ 
+
+
+
 </template>
 
 
@@ -64,40 +61,11 @@ export default {
 .main{
    
 	font-family: Aqum;
-	background: rgb(158, 48, 5);
+	background: orange;
  }
  
  h1,h2 {
  color: white;
-
-}
- 
- a {
-  text-decoration: none;
-  outline: none;
-  display: inline-block;
-  margin: 10px 20px;
-  padding: 15px 30px;
-  overflow: hidden;
-  border: 2px solid;
-  border-bottom-width: 4px;
-  font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 2px;
-  color: black;
-  background: rgba(255,255,255,1);
-  transition: color .3s, background .5s;
-}
-a:hover {
-  animation: stripes .75s infinite linear;
-  background: linear-gradient(45deg, rgba(30,255,188,1) 25%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 50%, rgba(30,255,188,1) 50%,      rgba(30,255,188,1) 75%, rgba(255,255,255,1) 75%, rgba(255,255,255,1));
-  background-size: 10px 10px;
-  color: #FF50E5;
-}
-@keyframes stripes {
-  0% {background-position: 0 0;}
-  100% {background-position: 50px 0;}
 
 }
  h1 {
@@ -114,14 +82,9 @@ a:hover {
  flex-wrap:wrap;
  justify-content: space-around;
 }
+
 input{
 padding-left:100px;
 margin-left:500px;
-}
-.footer{
-	flex-wrap: wrap;
-	flex-direction: column;
-	padding: 2px;
-	background-color: purple;
 }
 </style>

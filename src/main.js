@@ -4,11 +4,13 @@ import App from './App.vue'
 import HelloWorld from "./components/HelloWorld"
 import macpro from "./components/macpro"
 import macbook from "./components/macbook"
+
+
 Vue.use(VueRouter)
 Vue.config.productionTip = false
 const routes = [
   { path: '/', component:HelloWorld},
-  { path: '/macpro',component:macpro  },
+  { path: '/macpro',components:macpro  },
   { path: '/macbook',component:macbook }
 ]
 const router = new VueRouter({
