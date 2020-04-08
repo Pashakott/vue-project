@@ -1,6 +1,6 @@
 <template>
 <div class="main ">
- 
+ <router-link to="/homework">Homework</router-link>
   <div class="flex-wrapper">
  <div class="flex-child ">
   <p> <img src="mac.png" ></p>

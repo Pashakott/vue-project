@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style  scoped>
-<style scoped>
+
 .main{
    
 	font-family: Aqum;

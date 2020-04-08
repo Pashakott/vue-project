@@ -4,6 +4,7 @@ import App from './App.vue'
 import HelloWorld from "./components/HelloWorld"
 import macpro from "./components/macpro"
 import macbook from "./components/macbook"
+import VueCycle from "./components/VueCycle"
 
 
 Vue.use(VueRouter)
@@ -11,7 +12,8 @@ Vue.config.productionTip = false
 const routes = [
   { path: '/', component:HelloWorld},
   { path: '/macpro',components:macpro  },
-  { path: '/macbook',component:macbook }
+  { path: '/macbook',component:macbook },
+  { path: '/homework',component:VueCycle }
 ]
 const router = new VueRouter({
   mode:"history",
