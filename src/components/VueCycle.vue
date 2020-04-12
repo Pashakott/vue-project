@@ -2,7 +2,7 @@
 	<div>
 		<h1>{{ text }}</h1>
 		<div>Test clicked {{ count }}</div>
-		<button @mouseenter="Hover()">Наведи мышь</button>
+		<button @mouseenter="Hover(),d()">Наведи мышь</button>
 		<br />
 		
 	</div>
@@ -28,6 +28,9 @@ export default {
 			
 			
 		},
+		d(){
+		console.log("Убери мышь");
+	}
 	},
 	beforeCreate() {
 		this.loadingStatus="beforeCreate"
@@ -61,6 +64,7 @@ export default {
 		this.loadingStatus="destroyed"
 		console.log(this.loadingStatus);
 	},
+	
 };
 
 
