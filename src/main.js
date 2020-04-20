@@ -4,7 +4,7 @@ import App from './App.vue'
 import HelloWorld from "./components/HelloWorld"
 import macpro from "./components/macpro"
 import macbook from "./components/macbook"
-import VueCycle from "./components/VueCycles"
+import VueCycle from "./components/VueCycle"
 
 
 Vue.use(VueRouter)
